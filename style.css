@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(219, 235, 219); 
+    height: 100vh;
+    padding: 1px;
+    
+} 
+.main{
+    height: 100%;
+    width:100%;
+    /* background-color: rgb(243, 13, 13); */
+}
+.top{
+    height: 6%;
+    width: 100%;
+    background-color:#111;
+    position: sticky;
+}
+.middle{
+    /* height: 50px; */
+    width: 100%;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    /* display: block; */
+}
+.grid-container{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 40px;
+}
+.data{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding: 10px; 
+    color: white;
+}
+li{
+    /* float: left; */
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0%;
+    display: flex;
+
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+} 
+
+.grid-container > div {
+    background-color: rgba(247, 237, 237, 0.8);
+    text-align: center;
+    padding: 5px ;
+    font-size: 20px;
+  }
+  /* .round{
+    height: 18px;
+    width: 18px;
+    background-color: red;
+    top: 0;
+    left: 10%;
+    text-align: center;
+    color: white;
+  } */
+/* li .round{
+    height: 18px;
+    width: 18px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color: white;
+    position: static;
+    right:0px;
+} */
+.round {
+    top: 0;
+    border-radius:  100px;
+    position: absolute;
+    right: 0px;
+    background: red;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    color: white;
+}
+a.massages{
+    position: relative;
+}
