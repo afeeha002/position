@@ -11,7 +11,6 @@ body{
 .main{
     height: 100%;
     width:100%;
-    /* background-color: rgb(243, 13, 13); */
 }
 .top{
     height: 6%;
@@ -20,12 +19,10 @@ body{
     position: sticky;
 }
 .middle{
-    /* height: 50px; */
     width: 100%;
     background-color: #333;
     position: sticky;
     top: 0;
-    /* display: block; */
 }
 .grid-container{
     height: 100%;
@@ -42,9 +39,6 @@ body{
     justify-content: center;
     padding: 10px; 
     color: white;
-}
-li{
-    /* float: left; */
 }
 ul{
     list-style-type: none;
@@ -70,27 +64,7 @@ li a:hover {
     text-align: center;
     padding: 5px ;
     font-size: 20px;
-  }
-  /* .round{
-    height: 18px;
-    width: 18px;
-    background-color: red;
-    top: 0;
-    left: 10%;
-    text-align: center;
-    color: white;
-  } */
-/* li .round{
-    height: 18px;
-    width: 18px;
-    background-color: red;
-    position: absolute;
-    top: 0;
-    text-align: center;
-    color: white;
-    position: static;
-    right:0px;
-} */
+}
 .round {
     top: 0;
     border-radius:  100px;
@@ -104,4 +78,14 @@ li a:hover {
 }
 a.massages{
     position: relative;
+}
+.img{
+    border-radius: 100%;
+    position: sticky;
+    background-color: cornflowerblue;
+    width:40px;
+    height:40px;
+    right: 50px;
+    bottom: 40px;
+    text-align: center;
 }
